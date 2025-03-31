@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Formulario de registro -->
+    <div id="registro">
+        <img src="imagenes/sol.jpg" alt="Logo" id="logo">
+        <h2>Regístrate En MUSIC :)</h2>
+        <form id="formRegistro">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="email">Correo:</label>
+            <input type="email" id="email" required>
+
+            <label for="contrasena">contrasena:</label>
+            <input type="contrasena" id="contrasena" required>
+            
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+
+   <!-- Reproductor de música -->
+<div id="reproductor" style="display: none;">
+    <h2>Reproductor de Música</h2>
+    <audio id="audio" controls></audio>
+    <br>
+    <button id="btnAnterior">⏮ Anterior</button>
+    <button id="btnPlayPause">▶️ Play</button>
+    <button id="btnSiguiente">⏭ Siguiente</button>
+</div>
+
+
+    <script src="scrip.js"></script>
+</body>
+</html>

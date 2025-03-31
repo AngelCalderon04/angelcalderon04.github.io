@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #72c0ce;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 200px; /* Ajusta el tamaño */
+    display: block;
+    margin: 0 auto 20px; /* Centra la imagen y da espacio debajo */
+}
+
+#registro, #reproductor {
+    margin: 50px auto;
+    padding: 50px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(235, 7, 7);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ea33;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#imagenCancion {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#reproductor {
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
